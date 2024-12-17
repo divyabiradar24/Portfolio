@@ -1,42 +1,100 @@
 const project = [
     {
-        name: "Project A",
+        name: "An Analytical Approach for Cetacean Family Species Detection",
         logo: "https://i.ibb.co/r41nZkd/image.png",
-        briefDesc: "An innovative platform for sharing thoughts and ideas.",
+        briefDesc: "A multi-class classification model for detecting cetacean species using auditory data.",
         desc: [
-            "Project A is a unique space where users can express their creativity and connect with like-minded individuals.",
-            "It features an interactive interface that enhances user engagement and collaboration.",
-            "Utilizes advanced caching techniques to ensure quick load times and a seamless experience.",
-            "Offers real-time updates and notifications to keep users informed and connected.",
-            "Includes email integration for account verification and updates.",
-            "Allows users to explore various topics and participate in discussions."
+            "Developed a model using CNNs, CRNNs, and SoundNet for classifying marine mammal vocalizations.",
+            "Trained on a dataset of 93 marine mammal species to enhance bioacoustic analysis.",
+            "Highlights the importance of automated techniques in marine conservation."
         ],
-        tech: ["Tech A", "Tech B", "Tech C", "Tech D", "Tech E", "Tech F", "Tech G"],
-        githubLink: "https://www.google.com",
-        liveLink: "https://www.google.com",
-        previewImages:["https://cdn.prod.website-files.com/6009ec8cda7f305645c9d91b/64f8f63f2c8424ff96186592_64f21cb5ade0e3b3f3962956_PUZi8gXC0CwFZsfeGFln108eDAOcjjsXcc8EygOzeDNNx8qPxMT1LQ60vnNvvu0P436jceO3ccQL_uJvfEG5s3D3xM128PtzZWkOrOBdQq8B9h2kvuOjh8CmAHMLEtJxJeZRV5b8VglUy6Y6Dyk2bA.png",
-            "https://cdn.prod.website-files.com/6009ec8cda7f305645c9d91b/64f8f63f2c8424ff9618659a_64f21cb68461d15cd4f036f4_9Yn-_IMAPwlsRjW_dY5XZnlKQRX9bSXCQ5ic4xkdrOo4sRMuVO3dT7fVymBt-s8_fC1hwxBkFGsioRl9QKl0R66pu3n1M5pu44LHY1WJn2oNEKXTJw8IP5UxJqkH8DT9QrAlRoObVFDKJG_P3yhAwQ.png","https://cdn.prod.website-files.com/6009ec8cda7f305645c9d91b/64f8f63f2c8424ff9618658f_64f21cb5411912d5956135a1_hZy_Vhne-JBc6PTGZh89WV9SM3yw7ZxJisTagsjiGySvL-XUTov_2-rh3kcbx5gQJi_TEHwS_6AWdDTDrcC3rXVM1xt9YnzvyxivPh2tzs8eiOCTFT0Xo4OgZ9mGN9YMQFGOH8bmmau9C37VeEgmjA.png",
-            "https://cdn.prod.website-files.com/6009ec8cda7f305645c9d91b/64f8f63f2c8424ff96186581_64f21d8cff70ded458e2734f_MmFu5esU5jOrjChj0nfr1Me5DFLtyr0MptBC_KL4eCdWrGkHRAJlaKdRUw1EvkbjLTXuy4kChmR8tRHaAz8UBU7AU5xODqhgizVv093veEzMUNbMHr1_I3EoAJ0-LBmUsQc5qebiNBCabbV8NY0DSw.jpeg"]
+        tech: ["CNN", "CRNN", "SoundNet", "Bioacoustics"],
+        githubLink: "https://ieeexplore.ieee.org/abstract/document/10333321",
+        previewImages: ["https://cdn.prod.website-files.com/6009ec8cda7..."]
     },
     {
-        name: "Project B",
+        name: "WAV2Lip-HQ Inference System",
         logo: "https://i.ibb.co/r41nZkd/image.png",
-        briefDesc: "A dynamic platform for real-time interactions.",
+        briefDesc: "A system designed to achieve high-quality lip synchronization in videos.",
         desc: [
-            "Project B enables users to engage in meaningful conversations and share experiences.",
-            "Features robust messaging capabilities with instant notifications.",
-            "Built with a focus on user-friendly design and smooth navigation.",
-            "Incorporates powerful backend technologies to support user interactions.",
-            "Supports multimedia sharing for richer communication.",
-            "Allows users to create personalized profiles and join various discussion rooms."
+            "Utilizes advanced algorithms in Python and PyTorch to synchronize lip movements in real-time.",
+            "Achieves an accuracy rate of 95% while processing at 30 frames per second (FPS).",
+            "Supports video resolutions up to 4K, suitable for dubbing and deepfake creation.",
+            "Streamlines the dubbing process, enhancing user experience and efficiency."
         ],
-        tech: ["Tech H", "Tech I", "Tech J", "Tech K", "Tech L", "Tech M"],
-        githubLink: "https://www.google.com",
-        liveLink: "https://www.google.com",
-        previewImages:["https://cdn.prod.website-files.com/6009ec8cda7f305645c9d91b/64f8f63f2c8424ff96186592_64f21cb5ade0e3b3f3962956_PUZi8gXC0CwFZsfeGFln108eDAOcjjsXcc8EygOzeDNNx8qPxMT1LQ60vnNvvu0P436jceO3ccQL_uJvfEG5s3D3xM128PtzZWkOrOBdQq8B9h2kvuOjh8CmAHMLEtJxJeZRV5b8VglUy6Y6Dyk2bA.png",
-            "https://cdn.prod.website-files.com/6009ec8cda7f305645c9d91b/64f8f63f2c8424ff9618659a_64f21cb68461d15cd4f036f4_9Yn-_IMAPwlsRjW_dY5XZnlKQRX9bSXCQ5ic4xkdrOo4sRMuVO3dT7fVymBt-s8_fC1hwxBkFGsioRl9QKl0R66pu3n1M5pu44LHY1WJn2oNEKXTJw8IP5UxJqkH8DT9QrAlRoObVFDKJG_P3yhAwQ.png","https://cdn.prod.website-files.com/6009ec8cda7f305645c9d91b/64f8f63f2c8424ff9618658f_64f21cb5411912d5956135a1_hZy_Vhne-JBc6PTGZh89WV9SM3yw7ZxJisTagsjiGySvL-XUTov_2-rh3kcbx5gQJi_TEHwS_6AWdDTDrcC3rXVM1xt9YnzvyxivPh2tzs8eiOCTFT0Xo4OgZ9mGN9YMQFGOH8bmmau9C37VeEgmjA.png",
-            "https://cdn.prod.website-files.com/6009ec8cda7f305645c9d91b/64f8f63f2c8424ff96186581_64f21d8cff70ded458e2734f_MmFu5esU5jOrjChj0nfr1Me5DFLtyr0MptBC_KL4eCdWrGkHRAJlaKdRUw1EvkbjLTXuy4kChmR8tRHaAz8UBU7AU5xODqhgizVv093veEzMUNbMHr1_I3EoAJ0-LBmUsQc5qebiNBCabbV8NY0DSw.jpeg"]
+        tech: ["Python", "PyTorch", "Deep Learning", "Video Processing"],
+        githubLink: "https://github.com/EESH-843/Wav2Lip-HQ-inference",
+        previewImages: ["https://cdn.prod.website-files.com/6009ec8cda7..."]
+    },
+    {
+        name: "Is It Legal To: A One-Stop Solution for Legal Clarity",
+        logo: "https://i.ibb.co/r41nZkd/image.png",
+        briefDesc: "A platform simplifying legal guidance, connecting users with lawyers, and tracking case progress.",
+        desc: [
+            "Created an intuitive interface to determine the legality of activities with citations.",
+            "Integrated AI-powered summaries for seamless case progress tracking.",
+            "Facilitated connections with specialized lawyers while enhancing legal information accessibility."
+        ],
+        tech: ["AI", "Deep Learning", "LegalTech", "LLM Optimization"],
+        githubLink: "https://syncwave.co.in",
+        previewImages: ["https://cdn.prod.website-files.com/6009ec8cda7..."]
+    },
+    {
+        name: "CRISP - Comprehensive Route Information System for Passengers",
+        logo: "https://i.ibb.co/r41nZkd/image.png",
+        briefDesc: "A system providing real-time tracking and route information for public transport.",
+        desc: [
+            "Offers a user-friendly platform using GPS technology for real-time bus tracking and route information.",
+            "Enables precise location tracking of multiple vehicles and records their positions at intervals.",
+            "Simplifies navigation and provides extensive customization options for users.",
+            "Enhances convenience with an affordable and versatile system for students."
+        ],
+        tech: ["GPS Technology", "Real-Time Tracking", "User Experience Design"],
+        githubLink: "https://github.com/EESH-843/CRISP",
+        liveLink: "https://crisp-example.com",
+        previewImages: ["https://cdn.prod.website-files.com/6009ec8cda7..."]
+    },
+    {
+        name: "V-SAT (1U CubeSat)",
+        logo: "https://i.ibb.co/r41nZkd/image.png",
+        briefDesc: "A project developing a 1U CubeSat payload system to analyze electromagnetic radiation.",
+        desc: [
+            "Designed and developed a 1U CubeSat payload system capable of capturing data across the EM spectrum.",
+            "Validated the CubeSat’s design for reliable performance under adverse conditions.",
+            "Programmed system-critical components achieving 100% uptime and redundancy.",
+            "Enhanced payload protection through weather-resistant enclosure designs."
+        ],
+        tech: ["CubeSat Technology", "Electromagnetic Analysis", "CAD Design"],
+        githubLink: "https://github.com/example/v-sat",
+        liveLink: "https://v-sat-example.com",
+        previewImages: ["https://cdn.prod.website-files.com/6009ec8cda7..."]
+    },
+    {
+        name: "VISU-NG (Human-Centric Robot)",
+        logo: "https://i.ibb.co/r41nZkd/image.png",
+        briefDesc: "A human-centric robot facilitating natural communication through advanced TTS and STT technologies.",
+        desc: [
+            "Developed advanced text-to-speech (TTS) and speech-to-text (STT) functionalities for seamless interaction.",
+            "Integrated speech capabilities with large language models to enhance conversational context.",
+            "Focused on making technology intuitive for applications in education, healthcare, and personal assistance."
+        ],
+        tech: ["TTS", "STT", "Large Language Models", "Human-Robot Interaction"],
+        liveLink: "https://visu-ng-example.com",
+        previewImages: ["https://cdn.prod.website-files.com/6009ec8cda7..."]
+    },
+    {
+        name: "HackAP - Dance Floor Generating Electricity",
+        logo: "https://i.ibb.co/r41nZkd/image.png",
+        briefDesc: "A dance floor designed to generate electricity using human movement.",
+        desc: [
+            "Designed a system using air-tight syringes and piezoelectric sensors to convert motion into energy.",
+            "Demonstrated a sustainable and creative approach to renewable energy generation.",
+            "Utilized hydraulic pressure systems to generate electricity during dancing."
+        ],
+        tech: ["Hydraulics", "Piezoelectric Sensors", "Sustainable Energy"],
+        liveLink: "https://hackap-example.com",
+        previewImages: ["https://cdn.prod.website-files.com/6009ec8cda7..."]
     }
-]
+];
 
 export {project};

@@ -5,20 +5,20 @@ const Education = ({ isDarkMode }) => {
     {
       institution: "Vellore Institute of Technology, Andhra Pradesh",
       duration: "2022-2026",
-      degree: "Bachelor of Technology - Computer Engineering",
-      cgpa: "CGPA: 7.56",
+      degree: "Bachelor of Technology in Computer Science and Engineering (Spl. in Artificial Intelligence and Machine Learning)",
+      cgpa: "CGPA: 8.67",
     },
     {
-      institution: "Sri Chaitanya Techno School, Chennai",
-      duration: "2021-2022",
+      institution: "National Public School",
+      duration: "2020-2021",
       degree: "CBSE Class XII Aggregate",
-      score: "82.2%",
+      score: "92.4%",
     },
     {
-      institution: "Lalaji Memorial Omega International School, Chennai",
-      duration: "2019-2020",
+      institution: "National Public School",
+      duration: "2018-2019",
       degree: "CBSE Class X Aggregate",
-      score: "82.5%",
+      score: "91.4%",
     },
   ];
 

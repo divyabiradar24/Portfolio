@@ -93,18 +93,18 @@ const BentoLayout = ({ isDarkMode, toggleDarkMode }) => {
         )}
       </button>
 
-      <div ref={gridRef} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        {/* Profile Image */}
-        <div
-          className="col-span-1 sm:col-span-2 lg:col-span-2 aspect-square sm:aspect-[2/1] rounded-xl border-transparent p-4 shadow-md flex justify-center items-center"
-          style={{
-            backgroundImage: `url(${backgroundImage})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        >
-          <span className="text-xl lg:text-4xl text-black dark:text-white font-bold">Who Am I?</span>
-        </div>
+          <div ref={gridRef} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {/* Profile Image */}
+            <div
+      className="col-span-1 sm:col-span-2 lg:col-span-2 aspect-square sm:aspect-[2/1] rounded-xl border-transparent p-4 shadow-md flex justify-center items-center"
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <span className="text-xl lg:text-4xl text-black font-bold">Who Am I?</span>
+    </div>
 
         {/* Resume */}
         <div className="col-span-1 aspect-square rounded-xl border-transparent shadow-md overflow-hidden">
@@ -118,13 +118,15 @@ const BentoLayout = ({ isDarkMode, toggleDarkMode }) => {
         </div>
 
         {/* Experience */}
-        <div className="col-span-1 aspect-square rounded-xl border-transparent shadow-md overflow-hidden">
-          <img
-            src={fresherLogo}
-            alt="Experience"
-            className="w-full h-full object-cover"
-          />
-        </div>
+<div className="col-span-1 aspect-square rounded-xl border-transparent shadow-md overflow-hidden">
+  <a href="https://drive.google.com/drive/u/1/folders/1b1ihD2koIThmE0BiA2NyiIg7XwkiaOci" target="_blank" rel="noopener noreferrer">
+    <img
+      src={fresherLogo}
+      alt="Experience"
+      className="w-full h-full object-cover"
+    />
+  </a>
+</div>
 
         {/* My Setup */}
         <div className="col-span-1 sm:col-span-2 lg:col-span-4 aspect-square sm:aspect-[4/1] rounded-xl border-transparent shadow-md overflow-hidden">
@@ -179,9 +181,7 @@ const BentoLayout = ({ isDarkMode, toggleDarkMode }) => {
         </div>
 
         {/* Contact me */}
-        <div className="col-span-1 sm:col-span-2 lg:col-span-4 rounded-xl border-transparent shadow-md overflow-hidden cursor-pointer" onClick={() => setContactOpen(true)}>
-          <img src={contactme} />
-        </div>
+        
       </div>
 
       {/* Project Modal */}
