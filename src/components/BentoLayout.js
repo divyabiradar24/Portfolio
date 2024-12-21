@@ -103,7 +103,12 @@ const BentoLayout = ({ isDarkMode, toggleDarkMode }) => {
         backgroundPosition: "center",
       }}
     >
-      <span className="text-xl lg:text-4xl text-black font-bold">Who Am I?</span>
+      <span className="text-xl lg:text-4xl text-white font-bold">Who Am I?</span>
+      <a href="https://gilded-helium-3c3.notion.site/WHO-AM-I-1631869c6486802483f6ed9fc8ff994c" target="_blank" rel="noopener noreferrer" className="w-full h-full object-cover">
+      <div class="w-full h-full object-cover">
+        
+    </div>
+  </a>
     </div>
 
         {/* Resume */}
@@ -119,7 +124,7 @@ const BentoLayout = ({ isDarkMode, toggleDarkMode }) => {
 
         {/* Experience */}
 <div className="col-span-1 aspect-square rounded-xl border-transparent shadow-md overflow-hidden">
-  <a href="https://drive.google.com/drive/u/1/folders/1b1ihD2koIThmE0BiA2NyiIg7XwkiaOci" target="_blank" rel="noopener noreferrer">
+  <a href="https://drive.google.com/drive/folders/1CQ1Iua4UabfAh5cSeraaBPidFrLlixf7?usp=drive_link" target="_blank" rel="noopener noreferrer">
     <img
       src={fresherLogo}
       alt="Experience"

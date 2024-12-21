@@ -1,20 +1,20 @@
-export const name = "Sai Eeshwar";
-export const title = "Creative problem solver";
-export const email = "saieeshwar03@gmail.com";
-export const github = "https://github.com/EESH-843";
-export const linkedin = "https://www.linkedin.com/in/eeshward/";
-export const twitter = "https://x.com/d_eeshwar";
-export const applemusic = "https://music.apple.com/profile/saieeshwar03";
-export const spotify = "https://open.spotify.com/user/eqrgdnossx80jms4zlqh4j8hb?si=816d1a3064804ed2";
-export const leetcode = "https://leetcode.com/u/eesh_d/";
+export const name = "Divya Biradar";
+export const title = "Creating with Vision";
+export const email = "divyabiradar24@gmail.com";
+export const whoami = "https://www.notion.so/WHO-AM-I-1631869c6486802483f6ed9fc8ff994c?pvs=4";
+export const github = "https://github.com/divyabiradar24";
+export const linkedin = "https://www.linkedin.com/in/divyashree-biradar241015/";
+export const twitter = "https://x.com/_divyabiradar";
+export const spotify = "https://open.spotify.com/user/ve97bdprm00wuambmclym8orf?si=f967b769d775486e";
+export const leetcode = "https://leetcode.com/u/divyabiradar/";
 
 
 export const skills = [
-    "Machine Learning   ",
-    "AI Engineer   ",
-    "Video editing - DaVinci Resolve",
-    "Photography   ",
-    "Sports Enthusiast",
+    "Cloud Computing   ",
+    "UI/UX Design   ",
+    "Video editing  ",
+    "Art Connoisseur   ",
+    "Innovative Thinking",
 ];
 
 export const resume = "./Resume.pdf"; //resume is working fine now

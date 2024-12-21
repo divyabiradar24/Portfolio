@@ -3,22 +3,22 @@ import React from "react";
 const Education = ({ isDarkMode }) => {
   const educationDetails = [
     {
-      institution: "Vellore Institute of Technology, Andhra Pradesh",
-      duration: "2022-2026",
-      degree: "Bachelor of Technology in Computer Science and Engineering (Spl. in Artificial Intelligence and Machine Learning)",
-      cgpa: "CGPA: 8.67",
+      institution: "RNS Institute of Technology",
+      duration: "2021-2025",
+      degree: "Bachelor of Technology in Computer Science and Engineering",
+      cgpa: "CGPA: 8.2",
     },
     {
-      institution: "National Public School",
-      duration: "2020-2021",
-      degree: "CBSE Class XII Aggregate",
-      score: "92.4%",
+      institution: "Kumaran's PU College",
+      duration: "2019-2021",
+      degree: "State Board XII Aggregate",
+      score: "75%",
     },
     {
       institution: "National Public School",
       duration: "2018-2019",
       degree: "CBSE Class X Aggregate",
-      score: "91.4%",
+      score: "75%",
     },
   ];
 
