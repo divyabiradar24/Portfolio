@@ -2,7 +2,7 @@
 
 ## Have a min to have a portfolio?! Here is your chance to make one
 
-<img width="1337" alt="" src="https://github.com/user-attachments/assets/c3633c60-d60e-4c03-87e1-3f3677b75b93" />
+<img width="1337" alt="" src="" />
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new?repository=https://github.com/kingsmen732/portfolio) # Fork this into your GitHub so this deploy button works in your repo
 
